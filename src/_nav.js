@@ -32,26 +32,20 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Master User',
-    to: '/dashboard',
+    to: '/masteruser',
     icon: <CIcon icon={cilUser} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
     name: 'Master Company',
-    to: '/dashboard',
+    to: '/mastercompany',
     icon: <CIcon icon={cilIndustry} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
     name: 'Master Location',
-    to: '/dashboard',
+    to: '/masterlocation',
     icon: <CIcon icon={cilLocationPin} customClassName="nav-icon" />,
-  },
-  {
-    component: CNavItem,
-    name: 'Master Absensi',
-    to: '/dashboard',
-    icon: <CIcon icon={cilFolder} customClassName="nav-icon" />,
   },
   {
     component: CNavTitle,
