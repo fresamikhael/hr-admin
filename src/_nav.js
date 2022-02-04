@@ -41,7 +41,7 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Transaksi',
+    name: 'Transaction',
   },
   {
     component: CNavItem,
